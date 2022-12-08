@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(to top, #5ee7df 0%, #b469e3 100%); /*----- used custom gradient from the internet -----*/
+  background-image: url("images/sunset\ background.png"); /*----- updated to use my photoshop image -----*/
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -70,12 +70,12 @@ html, body {
 }
 
 .center {
-    width: 50%; /*----- This is for responsiveness -----*/
+    width: 30%; /*----- This is for responsiveness -----*/
 	padding: 2%;
     margin-top: 10px;
 	margin-bottom: 10px;
 	margin: auto;
- 	background: rgba(194, 103, 226, 0.75); /*this uses opacity of 75% for the background color, changed the color to match background*/
+ 	background: rgba(43, 215, 221, 0.692); /*this uses opacity of 70% for the background color, changed the color to match background*/
 	text-align: center;
 	
 }
@@ -83,7 +83,7 @@ html, body {
    
 #logo {
 	width: 30%; /*----- This is for responsiveness -----*/
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 	margin-top: 5px;
 	text-align: center;
 }
@@ -92,14 +92,14 @@ h1 {
 	font-family: 'Kanit', sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 h2 {
-	font-family: 'Exo', sans-serif;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.6em;
+    margin: 0px auto 10px auto;
+    color: rgb(0, 0, 0);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -108,7 +108,7 @@ p {
 	font-family: 'Space Grotesk', sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff
+    color: rgb(0, 0, 0)
 }
 nav{
 	font-family: 'Space Grotesk', sans-serif;
@@ -125,11 +125,12 @@ nav li{
 }
 
 nav a{
-	background: rgba(194, 103, 226, 0.75);
+	background: rgba(101, 0, 178, 0.611);
 		display:center;
 		padding: 10px;
 		text-align: center;
 		margin-inline: 20px;
+		margin-bottom: 10px;
 		
 }
 
@@ -142,6 +143,6 @@ a{
 }
 
 a:hover{
-		color:rgb(255, 255, 255); /*----- Changed to white -----*/
-		background:rgb(0, 0, 0);/*----- changed hover color -----*/
+		color:rgb(0, 0, 0); /*----- Changed to white -----*/
+		background:rgb(43, 215, 221, 0.692);/*----- changed hover color -----*/
 }
